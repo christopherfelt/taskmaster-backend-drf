@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "C:\\Users\\chris\\.virtualenvs\\jwt-django-3bZx-z1P\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\chris\\.virtualenvs\\backend-hxE-Ltlj\\Scripts\\python.exe",
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true
 }

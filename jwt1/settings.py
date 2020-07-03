@@ -37,6 +37,7 @@ INSTALLED_APPS = [
 
     # Local
     'users.apps.UsersConfig',
+    'lists.apps.ListsConfig',
 
 
 ]

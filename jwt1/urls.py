@@ -6,5 +6,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('auth/obtain_token/', obtain_jwt_token),
     path('auth/refresh_token/', refresh_jwt_token),
-    path('user/', include('users.urls'))
+    path('user/', include('users.urls')),
+    path('lists/', include('lists.urls')),
 ]
