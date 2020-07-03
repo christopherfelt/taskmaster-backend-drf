@@ -37,7 +37,6 @@ INSTALLED_APPS = [
 
     # Local
     'users.apps.UsersConfig',
-    'posts.apps.PostsConfig',
 
 
 ]
