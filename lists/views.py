@@ -64,6 +64,7 @@ class TaskCollection(APIView):
         list = List.objects.get(pk=list_id)
         if (request.user == list.user):
             request.data['list_id'] = list_id
+            request.data['complete'] = False
             serializer = TaskSerializer(data=request.data)
             if serializer.is_valid():
                 serializer.save()
